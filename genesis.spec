@@ -3,7 +3,7 @@
 Name: genesis
 Summary: Application Lifecycle Manager
 Version: 0.0.1
-Release: %mkrel 0.1
+Release: %mkrel 0.2
 Url: http://www.moblin.org/projects/genesis-application-lifecycle-manager
 License: LGPLv2+
 Group: Graphical desktop/KDE
@@ -50,6 +50,8 @@ Moblin genesis library.
 %package -n %{libdev}
 Summary: Moblin genesis library devel files
 Group: System/Libraries
+Provides: genesis-devel = %{version}
+Provides: libgenesis-devel = %{version}
 Requires: %{libgenesis} = %{version}
 
 %description -n %{libdev}
