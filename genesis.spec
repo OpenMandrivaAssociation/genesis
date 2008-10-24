@@ -1,5 +1,3 @@
-%define         svn       866326
-
 Name: genesis
 Summary: Application Lifecycle Manager
 Version: 0.0.1
