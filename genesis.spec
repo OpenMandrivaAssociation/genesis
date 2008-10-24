@@ -1,10 +1,10 @@
 Name: genesis
 Summary: Application Lifecycle Manager
 Version: 0.0.1
-Release: %mkrel 0.2
+Release: %mkrel 0.3
 Url: http://www.moblin.org/projects/genesis-application-lifecycle-manager
 License: LGPLv2+
-Group: Graphical desktop/KDE
+Group: System/Libraries
 BuildRoot: %{_tmppath}/%{name}-%{version}-build
 # From GIT http://git.moblin.org/repos/users/horace.li/genesis.git
 Source0: %name-%version.tar.bz2
