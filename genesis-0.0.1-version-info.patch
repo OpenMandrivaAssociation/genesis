@@ -1,0 +1,11 @@
+--- src/Makefile.am.orig	2008-10-24 13:15:38.000000000 -0200
++++ src/Makefile.am	2008-10-24 13:16:25.000000000 -0200
+@@ -29,6 +29,8 @@
+                  genesis-fs-monitor.h \
+                  genesis-utils.h
+ 
++libgenesis_la_LDFLAGS = -version-info 0:0:0
++
+ libgenesis_la_LIBADD = $(GLIB_LIBS)     \
+                        $(GTK_LIBS)      \
+                        $(LIBXML_LIBS)   \

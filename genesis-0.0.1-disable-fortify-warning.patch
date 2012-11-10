@@ -1,0 +1,19 @@
+--- src/genesis-app-entry.c.orig	2008-10-24 13:09:43.000000000 -0200
++++ src/genesis-app-entry.c	2008-10-24 13:09:58.000000000 -0200
+@@ -351,6 +351,7 @@
+     errno = 0;
+     gchar *oom_filename;
+     int fd;
++    int result = 0;
+ 
+     /* If the child process inherited desktop's high
+      * priority, give child default priority */
+@@ -368,7 +369,7 @@
+ 
+     if (fd >= 0) 
+     {
+-      write (fd, "0", sizeof (char));
++      result = write (fd, "0", sizeof (char));
+       close (fd);
+     }
+   }
