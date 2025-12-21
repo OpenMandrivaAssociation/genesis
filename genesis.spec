@@ -10,6 +10,8 @@ BuildRoot: %{_tmppath}/%{name}-%{version}-build
 Source0: %name-%version.tar.bz2
 Patch0: genesis-0.0.1-disable-fortify-warning.patch
 Patch1: genesis-0.0.1-version-info.patch
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
 BuildRequires: autoconf
 BuildRequires: automake
 BuildRequires: libtool
