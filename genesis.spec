@@ -1,7 +1,7 @@
 Name: genesis
 Summary: Application Lifecycle Manager
 Version: 0.0.1
-Release: %mkrel 0.6
+Release: 1
 Url: https://www.moblin.org/projects/genesis-application-lifecycle-manager
 License: LGPLv2+
 Group: System/Libraries
